@@ -1,12 +1,11 @@
 import React from 'react'
 export function Pedido({ drink, items, setItems }) {
     const { nombre, costo, imagen, stocks, descripcion } = drink
-      function increment() {
-        setItems(items + 1)
-      }
-      function decrement() {
-        setItems(items - 1)
-      }
+    const increment = () => setItems(items + 1);
+    const decrement = () => setItems(items - 1);
+    if (items <= 0) {
+        setItems(0);
+    }
     return (
         <>
             <div className="flex flex-col  border-2 border-gray-300 rounded w-[90%] h-[293px]  text-black ">
