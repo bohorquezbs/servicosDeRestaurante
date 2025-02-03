@@ -8,7 +8,7 @@ export function Bebidas({ items, setItems }) {
   const onChange = (e) => {
     setSearch(e.target.value)
   }
-  console.log(search);
+  
   const searchedItems = drinks.filter(
     (items) => {
       return items.nombre.toLowerCase().includes(search.toLowerCase())
