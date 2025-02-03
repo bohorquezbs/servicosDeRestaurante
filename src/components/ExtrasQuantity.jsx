@@ -5,32 +5,41 @@ export function ExtrasQuantity() {
         <h1 className="text-center text-white font-semibold text-2xl">Extras</h1>
       </nav>
       <ul className="self-start mb-60 px-10 ">
-        <li>
+        <li className="flex items-center gap-44">
           <span>Tomate</span>
-          <button className="font-extrabold rounded-full text-2xl px-5 py-2.5 text-center dark:bg-gray-200 dark:hover:bg-gray-300">
-          -</button>
-          <span>0</span>
-          <button className="font-extrabold rounded-full text-2xl px-4 py-2.5 text-center dark:bg-gray-200 dark:hover:bg-gray-300">+</button>
+          <div>
+            <button className="font-extrabold rounded-full border text-2xl px-5 py-2.5 text-center mb-3 bg-gray-200 hover:bg-gray-300">
+              -</button>
+            <span>0</span>
+            <button className="font-extrabold rounded-full border text-2xl px-4 py-2.5 text-center mb-3 bg-gray-200 hover:bg-gray-300">
+              +</button>
+          </div>
         </li>
-        <li>
+        <li className="flex items-center gap-44">
           <span>Cebolla</span>
-          <button className="font-extrabold rounded-full text-2xl px-5 py-2.5 text-center dark:bg-gray-200 dark:hover:bg-gray-300">
-          -</button>
-          <span>0</span>
-          <button className="font-extrabold rounded-full text-2xl px-4 py-2.5 text-center dark:bg-gray-200 dark:hover:bg-gray-300">+</button>
+          <div>
+            <button className="font-extrabold rounded-full border text-2xl px-5 py-2.5 text-center mb-3 bg-gray-200 hover:bg-gray-300">
+              -</button>
+            <span>0</span>
+            <button className="font-extrabold rounded-full border text-2xl px-4 py-2.5 text-center bg-gray-200 hover:bg-gray-300">
+              +</button>
+          </div>
         </li>
-        <li>
+        <li className="flex items-center gap-32">
           <span>Salsa picante</span>
-          <button className="font-extrabold rounded-full text-2xl px-5 py-2.5 text-center dark:bg-gray-200 dark:hover:bg-gray-300">
-          -</button>
-          <span>0</span>
-          <button className="font-extrabold rounded-full text-2xl px-4 py-2.5 text-center dark:bg-gray-200 dark:hover:bg-gray-300">+</button>
+          <div>
+            <button className="font-extrabold rounded-full border text-2xl px-5 py-2.5 text-center bg-gray-200 hover:bg-gray-300">
+              -</button>
+            <span>0</span>
+            <button className="font-extrabold rounded-full border text-2xl px-4 py-2.5 text-center bg-gray-200 hover:bg-gray-300">
+              +</button>
+          </div>
         </li>
       </ul>
 
       <ul className="flex gap-20">
-        <button>Confirmar</button>
-        <button>Cancelar</button>
+        <button className="border px-5">Cancelar</button>
+        <button className="border px-5 bg-[#e79406]">Confirmar</button>
       </ul>
     </div>
   )
