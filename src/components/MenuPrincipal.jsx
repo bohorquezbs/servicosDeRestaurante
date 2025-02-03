@@ -21,7 +21,6 @@ export function MenuPrincipal() {
                     Colaborador
                 </button>
             </div>
-        </div>
-        
+        </div>        
     )
 }
