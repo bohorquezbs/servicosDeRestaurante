@@ -2,14 +2,12 @@ import React from 'react'
 
 export function CardDrink({ drink, items, setItems }) {
     const { nombre, costo, imagen, stocks, descripcion } = drink
-     
       function increment() {
         setItems(items + 1)
       }
       function decrement() {
         setItems(items - 1)
       }
-
     return (
         <>
             <div className="flex flex-col border-2 border-[#515151] rounded-[30px] w-[90%] h-[280px] md:h-[294px] bg-[#515151] text-[#ECECEC] ">
