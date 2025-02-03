@@ -49,7 +49,7 @@ export const bebidas = [
     },
     {
       id: 7,
-      nombre: "Chocolate Caliente",
+      nombre: "Chocolate",
       costo: 28.0,
       imagen: "https://tse3.mm.bing.net/th?id=OIP.Wh5H8WC1kXRjaEIerLBH2QHaEK&pid=Api&P=0&h=180",
       descripcion: "Una bebida caliente y reconfortante hecha de chocolate derretido.",
@@ -129,7 +129,7 @@ export const bebidas = [
     },
     {
       id: 17,
-      nombre: "Smoothie de Mango",
+      nombre: "Smoothie Mango",
       costo: 37.0,
       imagen: "https://tse2.mm.bing.net/th?id=OIP.rA1FLiOds7-39dhHadF7XAHaFj&pid=Api&P=0&h=180",
       descripcion: "Un batido cremoso hecho con mangos frescos.",
@@ -216,4 +216,5 @@ export const bebidas = [
         stocks: 150
       },
   ];
+  
   

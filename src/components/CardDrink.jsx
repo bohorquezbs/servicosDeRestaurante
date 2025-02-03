@@ -1,4 +1,3 @@
-import { useState } from "react"
 import React from 'react'
 
 export function CardDrink({ drink, items, setItems }) {
@@ -13,11 +12,11 @@ export function CardDrink({ drink, items, setItems }) {
 
     return (
         <>
-            <div className="flex flex-col border-2 border-[#515151] rounded-[30px] w-[90%] h-[293px] bg-[#515151] text-[#ECECEC] ">
+            <div className="flex flex-col border-2 border-[#515151] rounded-[30px] w-[90%] h-[280px] md:h-[294px] bg-[#515151] text-[#ECECEC] ">
                 <img height={284} width={410} src={imagen} className="object-cover  rounded-[30px] h-[150px]" alt={descripcion} />
                 <div className="mt-1">
                     <div className="flex font-semibold justify-between mx-2 md:mx-4">
-                    <h5 className="md:text-2xl"> {nombre} </h5>
+                    <h5 className="text-[13px] md:text-[1.2rem]"> {nombre} </h5>
                     <h5 className="md:text-2xl">$ {costo} </h5>
                     </div>
                     <p className="text-[10px] md:text-[12px] text-center md:mx-8"> {descripcion} </p>
@@ -34,4 +33,3 @@ export function CardDrink({ drink, items, setItems }) {
         </>
     )
 }
-//284 190
