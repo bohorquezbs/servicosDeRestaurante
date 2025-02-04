@@ -16,7 +16,7 @@ export function Detail({ items, setItems }) {
             <div className='p-4 gap-4'>
                 <h3 className='flex justify-between'>
                     tacos
-                    <div className="flex justify-between w-[8.5rem]">
+                    <div className="flex justify-between w-[4.5rem]">
                         <button className="border border-black bg-slate-200 px-2 rounded-2xl">
                             -
                         </button>
@@ -28,7 +28,7 @@ export function Detail({ items, setItems }) {
                 </h3>
                 <h3 className='flex justify-between'>
                     coca cola
-                    <div className="flex justify-between w-[8.5rem]">
+                    <div className="flex justify-between w-[4.5rem]">
                         <button className="border border-black bg-slate-200 px-2 rounded-2xl">
                             -
                         </button>
@@ -40,7 +40,7 @@ export function Detail({ items, setItems }) {
                 </h3>
                 <h3 className='flex justify-between'>
                     agua
-                    <div className="flex justify-between w-[8.5rem]">
+                    <div className="flex justify-between w-[4.5rem]">
                         <button className="border border-black bg-slate-200 px-2 rounded-2xl">
                             -
                         </button>
@@ -52,7 +52,7 @@ export function Detail({ items, setItems }) {
                 </h3>
                 <h3 className='flex justify-between'>
                     sopa de pollo
-                    <div className="flex justify-between w-[8.5rem]">
+                    <div className="flex justify-between w-[4.5rem]">
                         <button className="border border-black bg-slate-200 px-2 rounded-2xl">
                             -
                         </button>
