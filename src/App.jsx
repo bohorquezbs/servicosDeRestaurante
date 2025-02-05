@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import { MenuPrincipal } from "/src/components/MenuPrincipal";
+import { Register } from './components/register'
+import { MenuPrincipal } from './components/menuPrincipal'
+
 
 
 function App() {
@@ -9,8 +11,9 @@ function App() {
   return (
     <>
     <div className='w-full h-screen'>
+      <Register/>
 
-     <MenuPrincipal/>
+   {/*   <MenuPrincipal/> */}
      </div>
     </>
   )
