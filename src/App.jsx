@@ -1,9 +1,5 @@
 
-import CardGrid from './pages/CardGrid'
 
 function App() {
-  return (
-    <CardGrid/>
-     
-}
+  return <></>
 export default App;
