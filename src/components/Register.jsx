@@ -1,10 +1,10 @@
 export function Register() {
   return (
-    <div className="flex w-[100%] h-[100%]">
+    <div className="flex w-[100%] h-[100%] ">
     <div className="bg-blue-400 hidden md:block">
         <img src="https://www.creativefabrica.com/wp-content/uploads/2018/11/Letter-food-logo-by-DEEMKA-STUDIO-312x208.jpg" alt="logo de comida" className=""/>
     </div>
-    <div className="bg-amber-400 w-full px-6  ">
+    <div className="bg-amber-400 w-full px-6 py-20 ">
     <form class="">
       <div class="mb-5">
         <label
@@ -58,7 +58,7 @@ export function Register() {
       <div className="flex flex-col gap-6">
       <button
         type="submit"
-        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        class="text-white bg-[#DA5E2B] hover:bg-[#875638] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:focus:ring-blue-800"
       >
         Ingresar
       </button>
@@ -66,13 +66,17 @@ export function Register() {
       <span className="text-white flex justify-center">¿No tienes una cuenta? </span>
       <button
         type="submit"
-        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        class="text-white bg-[#875638] hover:bg-[#DA5E2B] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:focus:ring-blue-800"
       >
         
 
         Registrarse
       </button>
+      <div className="">
+        <img src="https://www.creativefabrica.com/wp-content/uploads/2018/11/Letter-food-logo-by-DEEMKA-STUDIO-312x208.jpg" alt="" className="w-[100%] h-[15rem]"/>
       </div>
+      </div>
+     
     </form>
     </div>
     </div>
