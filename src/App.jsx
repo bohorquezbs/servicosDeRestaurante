@@ -1,18 +1,4 @@
 import { useState } from 'react'
-import { MenuPrincipal } from "/src/components/MenuPrincipal";
-
-
+import './App.css'
 function App() {
-
-  
-
-  return (
-    <>
-    <div className='w-full h-screen'>
-
-     <MenuPrincipal/>
-     </div>
-    </>
-  )
-}
-export default App
+return ()
